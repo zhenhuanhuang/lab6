@@ -1,0 +1,22 @@
+:root {
+  --bs-primary: #e6b566;
+  --bs-primary-rgb: 230, 181, 102;
+  --bs-body-bg: #0c0d0f;
+  --bs-body-color: #f2f0eb;
+  --bs-link-color: #e6b566;
+  --bs-link-hover-color: #f5d69f;
+}
+body { background: radial-gradient(circle at 75% 5%, #27221b 0, #0c0d0f 35%); }
+.navbar { background: rgb(12 13 15 / 94%); border-color: #34312c !important; }
+.navbar-brand, h1, h2, h3 { letter-spacing: -.025em; }
+.eyebrow { letter-spacing: .18em; font-size: .78rem; }
+.carousel-inner { border-radius: 1.5rem; box-shadow: 0 2rem 5rem rgb(0 0 0 / 45%); }
+.carousel-item img { aspect-ratio: 16 / 9; object-fit: cover; }
+.card { background: linear-gradient(145deg, #1b1c1f, #121315); transition: transform .25s ease, box-shadow .25s ease; }
+.card:hover { transform: translateY(-.4rem); box-shadow: 0 1.5rem 3.5rem rgb(0 0 0 / 50%) !important; }
+.card-img-top { aspect-ratio: 3 / 2; object-fit: cover; filter: saturate(.88) contrast(1.04); }
+summary { color: #e6b566; cursor: pointer; }
+.btn-solid.theme-primary { background: #e6b566; border-color: #e6b566; color: #111; }
+.btn-solid.theme-primary:hover, .btn-solid.theme-primary:focus-visible { background: #f5d69f; border-color: #f5d69f; color: #111; }
+footer { background: #090a0b; border-color: #34312c !important; }
+dialog::backdrop { background: rgb(0 0 0 / 75%); }
