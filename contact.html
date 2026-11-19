@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact automotive photographer Roy Huang about an automotive photography project.">
+  <title>Contact Roy Huang | Automotive Photography</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏁</text></svg>">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar md:navbar-expand sticky-top border-bottom" aria-label="Primary navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">ROY HUANG</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#mainMenu" commandfor="mainMenu" command="show-modal" aria-controls="mainMenu" aria-label="Open navigation menu"><span class="navbar-toggler-icon"></span></button>
+        <dialog class="drawer drawer-end" id="mainMenu" tabindex="-1" aria-labelledby="menuTitle">
+          <div class="drawer-header"><h2 class="drawer-title h5" id="menuTitle">Navigation</h2><button type="button" class="btn-close" data-bs-dismiss="drawer" commandfor="mainMenu" command="close" aria-label="Close navigation menu"></button></div>
+          <div class="drawer-body"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li><li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li></ul></div>
+        </dialog>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-7">
+    <div class="row g-5 align-items-start">
+      <div class="col-12 lg:col-4">
+        <p class="eyebrow text-uppercase text-primary fw-semibold mb-3">Commissions and collaborations</p>
+        <h1 class="display-3 fw-semibold">Let’s create a frame worth remembering.</h1>
+        <p class="lead fg-muted">Tell me about the car, location and feeling you want the photographs to capture.</p>
+        <img class="img-fluid rounded-5 shadow-lg mt-4" src="images/bmw-lakeside.jpg" alt="Blue BMW photographed beside a lake at sunset">
+      </div>
+      <div class="col-12 lg:col-8">
+        <form class="row g-4 card border-0 shadow-lg p-5" action="#" method="post">
+          <div class="col-12 md:col-6 form-field"><label for="firstName">First name</label><input class="form-control" type="text" id="firstName" name="firstName" autocomplete="given-name" required></div>
+          <div class="col-12 md:col-6 form-field"><label for="lastName">Last name</label><input class="form-control" type="text" id="lastName" name="lastName" autocomplete="family-name" required></div>
+          <div class="col-12 md:col-6 form-field"><label for="emailAddress">Email</label><input class="form-control" type="email" id="emailAddress" name="emailAddress" autocomplete="email" placeholder="name@example.com" required></div>
+          <div class="col-12 md:col-6 form-field"><label for="projectType">Project type</label><select class="form-control" id="projectType" name="projectType" required><option value="">Choose one</option><option value="private">Private car session</option><option value="event">Meet or event coverage</option><option value="editorial">Editorial feature</option></select></div>
+          <div class="col-12 form-field"><label for="message">Message</label><textarea class="form-control" id="message" name="message" rows="6" required></textarea></div>
+          <div class="col-12 form-field"><div class="check"><input class="check-input" type="checkbox" id="consent" name="consent" required><label class="check-label" for="consent">I consent to being contacted about this inquiry.</label></div></div>
+          <div class="col-12"><button class="btn-solid theme-primary" type="submit">Send inquiry</button></div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-5 border-top"><div class="container d-flex justify-content-between align-items-center"><div><p class="fw-semibold mb-1">ROY HUANG</p><p class="mb-0 small fg-muted">Automotive Photography · Toronto</p></div><a href="index.html">Return to portfolio</a></div></footer>
+  <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
